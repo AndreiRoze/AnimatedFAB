@@ -1,7 +1,6 @@
 package com.andreirozov.animatedfab.ui
 
 import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.animation.scaleIn
 import androidx.compose.animation.scaleOut
 import androidx.compose.animation.slideInVertically
@@ -30,7 +29,6 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.andreirozov.animatedfab.R
 
-@OptIn(ExperimentalAnimationApi::class)
 @Composable
 fun ContentScreen(
     contentViewModel: ContentViewModel = viewModel()
